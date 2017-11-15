@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.redlettermedia"
+       name="Red Letter Media"
+       version="0.10.0"
+       provider-name="Eldorado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.addon.common" version="1.0.0"/>
+    <import addon="script.module.elementtree"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">Watch the infamous Harry Plinkett movie reviews as well as regular movie review show Half In The Bag and Best of the Worst.
+
+    	Please visit official site http://www.redlettermedia.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.trailer.addict"
+       name="Trailer Addict"
+       version="2.9.1"
+       provider-name="stacked, Eldorado">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.module.parsedom" version="1.3.0"/>
+	<import addon="script.module.simple.downloader" version="0.9.3"/>
+	<import addon="script.module.buggalo" version="1.1.2"/>
+	<import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.metahandler" version="2.7.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Trailer Addict: Your Daily Dose of Hi-Res Movie Trailers</summary>
+    <description lang="en">Watch movie trailers for upcoming, new and classic films.</description>
+    <platform>all</platform>
+	<language>en</language>
+	<website>https://code.google.com/p/plugin</website>
+	<source>https://github.com/stacked/plugin.video.trailer.addict</source>
+	<forum>http://forum.xbmc.org/showthread.php?tid=53821</forum>
+	<email>stacked.xbmc@gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.axel.downloader"
+	     name="Axel Downloader"
+	     version="0.2.1"
+	     provider-name="Eldorado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="controlpanel.py"/>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension library="default.py" point="xbmc.service" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Multi-connection/threaded Downloader</summary>
+    <description lang="en">Download a file using multiple connections to achieve the highest speed.</description>
+  </extension>
+</addon>
+</addons>

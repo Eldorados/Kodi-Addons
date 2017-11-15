@@ -1,0 +1,41 @@
+[B]v0.9.1(Monday, 10 November 2014):[/B]
+  - Fixed error grabbing main page thumbnails
+
+[B]v0.9.0(Thursday, 26 June 2014):[/B]
+  - Fixed issues with main page and direct links
+  - Added paging for main page
+  - Added Best of the Worst section
+  - Show images for main page items
+  - Fixed up most of remaining broken sections
+  - Updated addon to Python 2.1.0 for proper Gotham support
+
+[B]v0.1.4(Monday, 06 May 2013):[/B]
+  - Fixed main page encoding issue
+  
+[B]v0.1.3(Saturday, 24 November 2012):[/B]
+  - Added support for Springboard videos
+
+[B]v0.1.2(Wednesday, 10 October 2012):[/B]
+  - Updated for new site layout
+  
+[B]v0.1.1(Friday, 31 August 2012):[/B]
+  - Added new Half In The Bag section - Short Versions
+  - Fixed Feature Films & Short Films for new site layout
+  - Added Mr. Plinkett Animated Series
+  
+[B]v0.1.0(Monday, 25 June 2012):[/B]
+  - Added main page news item links to main menu
+  
+[B]v0.0.9(Monday, 07 May 2012):[/B]
+  - Fixed another small formatting change in HITB section
+
+[B]v0.0.8 (Monday, 16 April 2012):[/B]
+  - Fixed small formatting changes in HITB section
+
+[B]v0.0.7 :[/B]
+  - Updated Half In the Bag section for new 2011/2012 episode layout
+  - Now getting proper episode name/number for HITB
+
+[B]v0.0.6 (Thursday, 26 January 2012):[/B]
+  - Updated to work with the latest t0mm0 common library
+ 
